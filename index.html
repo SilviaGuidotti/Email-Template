@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body {
+			margin: 0!important;
+			padding: 15px;
+			background-color: rgb(249, 247, 246);
+		}
+	
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+		}
+	
+		.wrapper-inner {
+			width: 100%;
+			background-color: #f19627;
+			max-width: 670px;
+			margin: 0 auto;
+		}
+	
+		table {
+			border-spacing: 0;
+			font-family: sans-serif;
+		}
+	
+		.outer-table {
+			width: 100%;
+			max-width: 670px;
+			margin: 0 auto;
+			background-color: #FFF;
+		}
+	
+		td {
+			padding: 0;
+		}
+	
+		.header {
+			background-color: rgb(155, 154, 154);
+			border-bottom: 3px solid #fff;
+		}
+	
+		p {
+			margin: 0;
+		}
+	
+		.header p {
+			text-align: center;
+			padding: 1%;
+			font-weight: 500;
+			font-size: 11px;
+			text-transform: uppercase;
+		}
+	
+		a {
+			color: #F1F1F1;
+			text-decoration: none;
+		}
+	
+		/*--- End Outer Table 1 --*/
+	
+		.main-table-first {
+			width: 100%;
+			max-width: 610px;
+			margin: 0 auto;
+			background-color: #FFF;
+			border-radius: 6px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			margin-top: 25px;
+		}
+	
+		.two-column {
+			text-align: center;
+		}
+	
+		.two-column .section {
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+		.two-column .content {
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+		}
+	
+		.content {
+			width: 100%;
+		}
+	
+		.center {
+			display: table;
+			margin: 0 auto;
+		}
+	
+		img.logo {
+			max-width: 200px !important;
+			border-radius: 50%; 
+			width: 100%; 
+			border: .8rem solid #e6b120;
+		}
+	
+		.h1 {
+			text-transform: uppercase;
+			font-family: sans-serif;
+			color: rgb(58, 49, 38);
+			font-size: 3.5rem;
+			padding-top: 2.5rem;
+			line-height: 1.2;
+		}
+	
+		/*--- Start Outer Table Banner Image, Text & Button --*/
+	
+		.image img {
+			width: 100%;
+			max-width: 670px;
+			height: auto;
+		}
+	
+		.main-table {
+			width: 100%;
+			max-width: 610px;
+			margin: 0 auto;
+			background-color: #FFF;
+		}
+	
+		.inner-td {
+			padding: 1rem;
+		}
+	
+		.h2 {
+			text-align: center;
+			font-size: 3rem;
+			font-weight: 600;
+			line-height: 1.2;
+			margin: 12px;
+			color: rgb(58, 49, 38);
+		}
+	
+		p.center {
+			text-align: center;
+			max-width: 580px;
+			line-height: 24px;
+		}
+	
+		.button-holder-center {
+			text-align: center;
+			margin: 3rem 0;
+		}
+	
+		.btn {
+			font-size: 15px;
+			font-weight: 600;
+			background-color: rgb(192, 113, 24);
+			color: #FFF;
+			text-decoration: none;
+			padding: 12px 16px;
+			border-radius: 28px;
+		}
+	
+		/*--- Start Two Column Image & Text Sections --*/
+	
+		.image-responsive {
+			width: 15%;
+			max-width: 280px;
+			height: auto;
+		}
+	
+		.two-column .text {
+			padding: 10px 0;
+		}
+	
+		/*--- Start Footer Section --*/
+	
+		.outer-table-3 {
+			width: 100%;
+		}
+	
+		.footer {
+			width: 100%;
+			background-color: rgb(109, 87, 58);
+			margin: 0 auto;
+			color: #FFF;
+		}
+	
+		.footer img {
+			width: 10%;
+			max-width: 135px;
+			Margin: 0 auto;
+			display: block;
+			padding: 4% 0 1% 0;
+		}
+	
+		p.footer {
+			text-align: center;
+			color: #FFF!important;
+			line-height: 20px;
+			padding-bottom: 4%;
+			text-transform: uppercase;
+		}
+	
+		@media screen and (max-width: 400px) {
+			
+			.h1{
+				font-size: 2.7rem;
+			}
+
+			.h2{
+				font-size: 2.2rem;
+			}
+
+			p.footer{
+				font-size: .6rem;
+			}
+			.two-column .column{
+				max-width: 100%!important;
+			}
+		}
+	
+		@media screen and (max-width:768px) {
+			img.logo {
+				max-width: 200px!important;
+			}
+
+			.image-responsive {
+				width: 10%;
+			}
+	
+			.two-column .section {
+				width: 100% !important;
+				max-width: 100% !important;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+
+	</style>
+</head>
+<body>
+    <div class="wrapper">
+    	<div class="wrapper-inner">
+    		<table class="outer-table">
+    			<tr>
+    				<td class="header">
+    					<p><a href="index.html#">Click to view this email in your browser</a></p>
+    				</td>
+    			</tr> <!--- End Header -->
+            </table> <!--- End Outer Table -->
+            <table class="main-table-first">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td align="center">
+                                                    <img src="http://www.silviaguidotti.com/img/SG.jpeg" class="logo">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!--- End First Column of Two Columns -->
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <p class="h1">Silvia Guidotti</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!--- End Second Column of Two Columns -->
+                    </td>
+                </tr> <!--- End Two Column Section -->
+            </table> <!--- End Main Table -->
+            <table class="outer-table">
+    			<tr>
+    				<td class="image">
+    					<img src="https://images.unsplash.com/photo-1502951682449-e5b93545d46e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86dcc4a537932173561d30a24657fdc3&auto=format&fit=crop&w=1566&q=80">
+    				</td>
+    			</tr> <!--- End Banner -->
+            </table> <!--- End Outer Table -->
+            <table class="main-table">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="inner-td">
+    								<p class="h2">Aspiring Junior Developer</p>
+    								<p class="center">Versatile and mature professional with over 10 years of experience in hospitality and marketing roles, with experience in managing small teams, dealing directly with clients and managing social media accounts.<br>
+									Self-taught on HTML5, CSS3 and JavaScript, CSS animations lover and passionate about UX, creating enjoyable digital experiences.<br>
+									Always willing to learn new skills and challenge myself with new tasks, able to build and maintain website pages.<br>
+									I would now like to utilise the skills and experience gained from my previous jobs and studies to undertake a new challenge as an entry-level Web/Email Developer.</p>
+    								<p class="button-holder-center">
+    									<a class="btn" href="http://www.silviaguidotti.com/">Find out more</a>
+    								</p>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr> <!--- End Heading, Paragraph & Button Section -->
+    			<tr>
+    				<td class="two-column">
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content">
+    										<tr>
+    											<td>
+    												<a href="https://github.com/SilviaGuidotti" target="_blank"><img src="http://www.silviaguidotti.com/img/github.png" class="img-responsive"></a>
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text">
+    												<p>Check out my portfolio on Github!</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End First Column of Two Columns -->
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content">
+    										<tr>
+    											<td>
+    												<a href="http://www.silviaguidotti.com/docs/SilviaGuidottiCV-2.pdf" target="_blank"><img src="http://www.silviaguidotti.com/img/file-text2.png" class="img-responsive"></a>
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text">
+    												<p>View my CV in PDF format!</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End Second Column of Two Columns -->
+    				</td>
+    			</tr> <!--- End Two Column Section -->
+            </table> <!--- End Main Table -->
+            <table class="outer-table-3">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="footer">
+    								<img src="http://www.silviaguidotti.com/img/favicon.png">
+    								<p class="footer">&copy; Silvia Guidotti, 2018.<br>Contacts: <br>07478452601 - silvyguidotti@gmail.com</p>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr>
+    		</table> <!--- End Main Table -->
+    	</div> <!--- End Wrapper Inner -->
+    </div> <!--- End Wrapper -->
+    <br>
+</body>
+</html>
