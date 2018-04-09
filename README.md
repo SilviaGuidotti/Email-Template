@@ -1,2 +1,2 @@
 # Email-Template
-Email template
+Personal Email template 
