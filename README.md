@@ -1,3 +1,3 @@
 # Personal Email template 
 
-[Live demo](https://codepen.io/SilviaGDT/full/zjVxgv/)
+## [Live demo](https://codepen.io/SilviaGDT/full/zjVxgv/)
